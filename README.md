@@ -1,6 +1,6 @@
 # Evidence Note Generater（エビデンスノートジェネレータ）
 
-クリニカルクエスチョンに対してエビデンスを探索した上でノート（日英対応）を作成するCodex Skills。　　
+クリニカルクエスチョンに対してエビデンスを探索した上でノート（日英対応）を作成するCodex Skills。  
 Codexをルートディレクトリで開いて臨床における疑問点を入力すると/output下にevidence noteを作成する。  
 
 markdownのビューワとしては/outputディレクトリをObsidianのVaultとして読み込むことを推奨。  
