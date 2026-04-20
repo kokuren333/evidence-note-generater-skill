@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QueryPlan",
+  "type": "object",
+  "required": ["clinical_question_original", "clinical_question_en", "title", "search_queries", "guideline_queries", "topic_folder"],
+  "properties": {
+    "clinical_question_original": {"type": "string"},
+    "clinical_question_en": {"type": "string"},
+    "title": {"type": "string"},
+    "search_queries": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 5},
+    "guideline_queries": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 5},
+    "topic_folder": {"type": "string"}
+  }
+}

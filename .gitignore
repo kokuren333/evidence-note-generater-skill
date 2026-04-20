@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keep output folder structure, but ignore generated notes
+output/**/*.md
+!output/**/.gitkeep

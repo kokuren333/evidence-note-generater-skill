@@ -1,0 +1,109 @@
+{
+  "title": "Initial Evaluation of Adult Hyponatremia",
+  "clinical_question": "In adults with newly identified hyponatremia, what bedside-first evaluation approach best distinguishes urgent causes and guides initial management?",
+  "bottom_line": [
+    "Confirm true hypotonic hyponatremia before expanding the differential.",
+    "Identify neurologic severity and time course early because they change urgency.",
+    "Use volume status, urine osmolality, and urine sodium to structure the first-pass evaluation.",
+    "Medication review and recent fluid exposure are high-yield and often underused.",
+    "Avoid rapid overcorrection, especially in chronic or high-risk patients."
+  ],
+  "why_this_matters": "Hyponatremia is common on admission and can represent anything from excess free water intake to life-threatening intracranial or endocrine disease.",
+  "scope_and_intended_use": "Resident-facing bedside synthesis for adults. Not a comprehensive guideline and not a dosing protocol.",
+  "key_definitions": [
+    "True hypotonic hyponatremia: low serum sodium with low serum tonicity.",
+    "Severe symptoms: seizures, coma, or major neurologic deterioration.",
+    "Chronic hyponatremia: generally >48 hours or unknown duration."
+  ],
+  "search_strategy": [
+    "PubMed: hyponatremia initial evaluation adult systematic review",
+    "Europe PMC: hyponatremia diagnostic approach adults",
+    "Guideline search: hyponatremia guideline adult diagnosis"
+  ],
+  "included_evidence": [
+    {
+      "source_id": 1,
+      "citation": "Verbalis JG, et al. Diagnosis, evaluation, and treatment of hyponatremia.",
+      "doc_type": "guideline",
+      "year": 2013,
+      "why_included": "Core structured approach and widely cited foundational guidance."
+    },
+    {
+      "source_id": 2,
+      "citation": "Spasovski G, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia.",
+      "doc_type": "guideline",
+      "year": 2014,
+      "why_included": "European guideline with practical diagnostic framing."
+    },
+    {
+      "source_id": 3,
+      "citation": "Example systematic review placeholder.",
+      "doc_type": "systematic review",
+      "year": 2022,
+      "why_included": "Illustrates schema only. Replace during actual use."
+    },
+    {
+      "source_id": 4,
+      "citation": "Example review placeholder.",
+      "doc_type": "review",
+      "year": 2021,
+      "why_included": "Illustrates schema only. Replace during actual use."
+    },
+    {
+      "source_id": 5,
+      "citation": "Example primary study placeholder.",
+      "doc_type": "primary study",
+      "year": 2020,
+      "why_included": "Illustrates schema only. Replace during actual use."
+    }
+  ],
+  "excluded_or_deprioritized_evidence": [
+    {
+      "citation_or_query": "Older narrative reviews without clear methods",
+      "reason": "Lower priority than guideline and systematic review evidence."
+    }
+  ],
+  "pathophysiology_background": "The immediate issue is excess body water relative to exchangeable sodium and potassium. Etiologies vary substantially, so distinguishing tonicity and likely mechanism is the first step.",
+  "diagnosis_assessment": "Start with symptom severity, measured serum osmolality, medication review, glucose, urine osmolality, and urine sodium. Interpret labs in the context of recent fluids and diuretics.",
+  "management_principles": "Prioritize symptomatic stabilization, identify urgent endocrine or neurologic causes, and tailor free-water restriction, volume repletion, or cause-specific therapy to the likely mechanism.",
+  "harms_pitfalls": "The major pitfall is overcorrection, especially in chronic hyponatremia or patients at high risk for osmotic demyelination.",
+  "what_remains_uncertain": "Some threshold-based bedside distinctions perform inconsistently across settings, especially when patients have mixed etiologies or recent interventions.",
+  "practical_takeaways_for_residents": [
+    "Confirm tonicity before labeling the mechanism.",
+    "Review medications and IV fluids early.",
+    "Escalate quickly when neurologic symptoms are present.",
+    "Be cautious with correction speed in chronic cases."
+  ],
+  "source_map": [
+    {
+      "source_id": 1,
+      "vancouver": "Verbalis JG, Goldsmith SR, Greenberg A, et al. Diagnosis, evaluation, and treatment of hyponatremia: expert panel recommendations. Am J Med. 2013;126(10 Suppl 1):S1-S42.",
+      "source_type": "guideline"
+    },
+    {
+      "source_id": 2,
+      "vancouver": "Spasovski G, Vanholder R, Allolio B, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Nephrol Dial Transplant. 2014;29 Suppl 2:i1-i39.",
+      "source_type": "guideline"
+    },
+    {
+      "source_id": 3,
+      "vancouver": "Placeholder reference 3.",
+      "source_type": "systematic review"
+    },
+    {
+      "source_id": 4,
+      "vancouver": "Placeholder reference 4.",
+      "source_type": "review"
+    },
+    {
+      "source_id": 5,
+      "vancouver": "Placeholder reference 5.",
+      "source_type": "primary study"
+    }
+  ],
+  "caveats": [
+    "This example JSON is a schema demonstration and includes placeholders.",
+    "Real runs must replace placeholders with verified citations."
+  ],
+  "last_updated": "2026-04-17"
+}

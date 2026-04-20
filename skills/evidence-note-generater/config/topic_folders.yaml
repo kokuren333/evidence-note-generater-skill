@@ -1,0 +1,85 @@
+fluids-electrolytes-kidney:
+  keywords:
+    - fluid
+    - electrolyte
+    - sodium
+    - potassium
+    - acid-base
+    - aki
+    - ckd
+    - urinalysis
+    - diuretic
+cardiovascular-respiratory:
+  keywords:
+    - chest pain
+    - dyspnea
+    - heart failure
+    - ischemia
+    - arrhythmia
+    - ecg
+    - ekg
+    - pneumonia
+    - asthma
+    - copd
+    - hypoxemia
+    - respiratory failure
+infectious-diseases-antimicrobials:
+  keywords:
+    - fever
+    - sepsis
+    - culture
+    - antimicrobial
+    - antibiotic
+    - de-escalation
+    - infection control
+gastroenterology-hepatobiliary-pancreas:
+  keywords:
+    - abdominal pain
+    - gi bleeding
+    - hematemesis
+    - melena
+    - diarrhea
+    - constipation
+    - liver
+    - biliary
+    - cholangitis
+    - pancreatitis
+endocrinology-metabolism-nutrition:
+  keywords:
+    - diabetes
+    - hypoglycemia
+    - hyperglycemia
+    - dka
+    - hhs
+    - thyroid
+    - adrenal
+    - dyslipidemia
+    - nutrition
+hematology-immunology-rheumatology:
+  keywords:
+    - anemia
+    - thrombocytopenia
+    - coagulation
+    - transfusion
+    - autoimmune
+    - vasculitis
+    - allergy
+neurology-psychiatry:
+  keywords:
+    - altered mental status
+    - stroke
+    - seizure
+    - headache
+    - vertigo
+    - delirium
+    - depression
+    - anxiety
+    - insomnia
+    - psychiatric
+emergency-diagnostics-reasoning:
+  keywords:
+    - abc
+    - shock
+    - syncope
+    - diagnostic reasoning
+    - consult

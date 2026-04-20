@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceNote",
+  "type": "object",
+  "required": [
+    "title",
+    "clinical_question",
+    "bottom_line",
+    "why_this_matters",
+    "scope_and_intended_use",
+    "key_definitions",
+    "search_strategy",
+    "included_evidence",
+    "excluded_or_deprioritized_evidence",
+    "pathophysiology_background",
+    "diagnosis_assessment",
+    "management_principles",
+    "harms_pitfalls",
+    "what_remains_uncertain",
+    "practical_takeaways_for_residents",
+    "source_map",
+    "caveats",
+    "last_updated"
+  ],
+  "properties": {
+    "title": {"type": "string", "minLength": 5},
+    "clinical_question": {"type": "string", "minLength": 10},
+    "bottom_line": {"type": "array", "minItems": 3, "maxItems": 6, "items": {"type": "string"}},
+    "why_this_matters": {"type": "string"},
+    "scope_and_intended_use": {"type": "string"},
+    "key_definitions": {"type": "array", "items": {"type": "string"}},
+    "search_strategy": {"type": "array", "items": {"type": "string"}},
+    "included_evidence": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": ["source_id", "citation", "doc_type", "year", "why_included"],
+        "properties": {
+          "source_id": {"type": "integer", "minimum": 1},
+          "citation": {"type": "string"},
+          "doc_type": {"type": "string"},
+          "year": {"type": "integer", "minimum": 1900, "maximum": 2100},
+          "why_included": {"type": "string"}
+        }
+      }
+    },
+    "excluded_or_deprioritized_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["citation_or_query", "reason"],
+        "properties": {
+          "citation_or_query": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "pathophysiology_background": {"type": "string"},
+    "diagnosis_assessment": {"type": "string"},
+    "management_principles": {"type": "string"},
+    "harms_pitfalls": {"type": "string"},
+    "what_remains_uncertain": {"type": "string"},
+    "practical_takeaways_for_residents": {"type": "array", "items": {"type": "string"}},
+    "source_map": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": ["source_id", "vancouver", "source_type"],
+        "properties": {
+          "source_id": {"type": "integer", "minimum": 1},
+          "vancouver": {"type": "string"},
+          "source_type": {"type": "string"},
+          "doi": {"type": "string"},
+          "pmid": {"type": "string"},
+          "pmcid": {"type": "string"},
+          "url": {"type": "string"}
+        }
+      }
+    },
+    "caveats": {"type": "array", "items": {"type": "string"}},
+    "last_updated": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+  }
+}
